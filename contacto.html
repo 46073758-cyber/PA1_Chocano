@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contacto y cotizador de servicios de CompuRepraint."><meta name="author" content="CompuRepraint"><meta name="theme-color" content="#0b1220"><title>Contacto | CompuRepraint</title>
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/styles.css">
+<script defer src="js/app.js"></script>
+</head>
+<body>
+<header class="site-header"><nav class="navbar container" aria-label="Navegación principal"><a class="brand" href="index.html"><span class="brand-mark">CR</span><span>Compu<span>Repraint</span></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">☰</button><ul id="main-menu" class="nav-links"><li><a href="index.html">Inicio</a></li><li><a href="servicios.html">Servicios</a></li><li><a class="active" href="contacto.html">Contacto</a></li><li><a class="nav-cta" href="#cotizador">Cotizar</a></li></ul></nav></header>
+<main>
+<section class="page-hero"><div class="container"><p class="eyebrow">CONTACTO</p><h1>Cuéntanos qué necesitas.</h1><p class="lead">Completa el formulario. El sitio genera un mensaje listo para enviar por WhatsApp.</p></div></section>
+<section class="section" id="cotizador"><div class="container contact-grid">
+<form class="contact-form" id="serviceForm" novalidate>
+<h2>Solicitar cotización</h2><p class="muted">Todos los campos principales están etiquetados para facilitar la accesibilidad.</p>
+<div class="form-grid"><div class="field"><label for="nombre">Nombre completo *</label><input id="nombre" name="nombre" type="text" placeholder="Ej. Juan Pérez" required autocomplete="name"></div><div class="field"><label for="telefono">Teléfono / celular *</label><input id="telefono" name="telefono" type="tel" placeholder="Ej. 999 101 577" required autocomplete="tel"></div><div class="field"><label for="email">Correo electrónico *</label><input id="email" name="email" type="email" placeholder="correo@ejemplo.com" required autocomplete="email"></div><div class="field"><label for="servicio">Servicio *</label><select id="servicio" name="servicio" required><option value="">Selecciona una opción</option><option>Mantenimiento de PC/Laptop</option><option>Impresoras</option><option>Redes y cableado</option><option>Sistemas de seguridad</option><option>Soporte informático</option><option>Diseño web</option></select></div></div>
+<div class="field"><label for="presupuesto">Presupuesto referencial</label><input id="presupuesto" name="presupuesto" type="number" min="0" step="10" placeholder="S/ 0"></div>
+<div class="field"><label for="mensaje">Describe tu problema o necesidad *</label><textarea id="mensaje" name="mensaje" rows="6" required placeholder="Cuéntanos brevemente qué necesitas..."></textarea></div>
+<label class="check"><input type="checkbox" id="acepto" required> Acepto que mis datos sean utilizados para responder a esta solicitud.</label>
+<button class="btn btn-primary" type="submit">Enviar por WhatsApp ↗</button><p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+</form>
+<aside class="contact-info"><div class="info-card"><div class="icon">📱</div><h3>WhatsApp</h3><p>+51 999 101 577</p></div><div class="info-card"><div class="icon">📧</div><h3>Correo</h3><p>contacto@compurepraint.pe</p></div><div class="info-card"><div class="icon">📍</div><h3>Cobertura</h3><p>Lima Metropolitana y Callao. Soporte remoto a nivel nacional.</p></div><div class="info-card"><div class="icon">🕐</div><h3>Atención</h3><p>Lunes a viernes, previa coordinación.</p></div></aside>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">CR</span><span>Compu<span>Repraint</span></span></a><p>Soluciones tecnológicas para hogares y empresas.</p></div><div><h3>Enlaces</h3><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="contacto.html">Contacto</a></div><div><h3>Contacto</h3><p>📱 +51 999 101 577</p><p>📧 contacto@compurepraint.pe</p></div></div><div class="footer-bottom">© 2026 CompuRepraint · Proyecto académico de Diseño Web</div></footer>
+</body></html>
